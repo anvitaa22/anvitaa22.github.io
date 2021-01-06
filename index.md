@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Welcome to my GitHub Page!
 
-You can use the [editor on GitHub](https://github.com/anvitaa22/anvitaa22.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+`System.out.println("My name is Anvitaa Sekhsaria. I am a second year Computer Science student at UCSD.");`
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### About Me
+I have been born and brought up in Mumbai, India and now live in San Diego, California. Being in close
+proximity to the ocean throughout my life, I love being around water.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### These are some of my favorite activities
 
-```markdown
-Syntax highlighted code block
+1. **Water sports**
+   - _Scuba Diving_
+   - _Surfing_
+   - _Swimming_
+   - _Snorkeling_
+2. **Hiking**
+3. **Photography**
 
-# Header 1
-## Header 2
-### Header 3
+~~I love GitHub~~
 
-- Bulleted
-- List
+The quote I live by:
+>The _only_ thing between you and who you want to be is **YOU!**
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anvitaa22/anvitaa22.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This site was built using [GitHub Pages](https://pages.github.com/)
