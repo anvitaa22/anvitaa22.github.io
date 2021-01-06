@@ -24,6 +24,6 @@ The quote I live by:
 >The _only_ thing between you and who you want to be is **YOU!**
 
 ## This is a picture of my dog Zach
-[Image](english-cocker-spaniel-featured-image.jpg)
+![Image](english-cocker-spaniel-featured-image.jpg)
 
 This site was built using [GitHub Pages](https://pages.github.com/)
