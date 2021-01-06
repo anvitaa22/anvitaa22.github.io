@@ -15,6 +15,7 @@ proximity to the ocean throughout my life, I love being around water.
    - _Swimming_
    - _Snorkeling_
 2. **Hiking**
+   -CLick [here](https://www.youtube.com/watch?v=sWlCgM1GYJY) to watch a video of my favorite hike
 3. **Photography**
 
 ~~I love GitHub~~
