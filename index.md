@@ -25,5 +25,6 @@ The quote I live by:
 
 ## This is a picture of my dog Zach
 ![Image](english-cocker-spaniel-featured-image.jpg)
+You could also click [here](english-cocker-spaniel-featured-image.jpg) to view the image.
 
 This site was built using [GitHub Pages](https://pages.github.com/)
