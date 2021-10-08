@@ -177,17 +177,17 @@ section#contact{
 }
 .icons a {
 	background: none;
-	color: white !important;
+	color: black !important;
 }
 .icons a:hover {
-	color: white !important;
+	color: black !important;
 	cursor: pointer;
 }
 .icons a:link {
-	color: white;
+	color: black;
 }
 .icons a:visited {
-	color: white;
+	color: black;
 }
 .down{
     position: absolute;
@@ -354,7 +354,19 @@ section#contact{
     color: white;
     
 }
-
+#icons-contact-section a{
+    color: white !important;
+}
+#icons-contact-section a:hover {
+	color:white !important;
+	cursor: pointer;
+}
+#icons-contact-section a:link {
+	color: white;
+}
+#icons-contact-section a:visited {
+	color: white;
+}
 /* --------------- MEDIA QUERIES -------------------- */
 @media screen and (max-width:616px) {
 	h1 {
