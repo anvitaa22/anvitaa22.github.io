@@ -1,0 +1,488 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+}
+p{
+    font-size: 1.5rem;;
+}
+body{
+    background-color: #AAD8D3;
+    line-height: 1.6;
+    height: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    overflow-x: hidden;
+    /* overflow: hidden; */
+}
+.container{
+    width:100%;
+    height:100%;
+}
+.navbar{
+    position: fixed;
+    top: 6%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30%;
+    z-index:100;
+    display:flex;
+    width: 60%;
+    align-items: center;
+    height: 60px;
+    background: white;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    width: 70%;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+.navabr ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #696969;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.navbar ul li a:hover{
+    color:black;
+}
+.navbar ul li.active{
+    background-color: #AAD8D3;
+    transition: 0.3s ease background-color;
+}
+.navbar ul li.active a{
+    color: black;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color:#696969;
+    overflow-x: hidden;
+}
+section#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+section#about{
+    background-color: white;
+    background: white;
+    height: max(fit-content, 100vh);
+}
+h1{
+    font-size: 6rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size:2rem;
+}
+.title{
+    width: fit-content;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background-color:  #AAD8D3;
+}
+section#experience{
+    background-color:#AAD8D3;
+    overflow-y: visible;
+    height: fit-content;
+}
+section#skills{
+    background-color:white;
+    height: max(fit-content, 100vh);
+}
+section#contact{
+    background-color:#AAD8D3;
+}
+.diagonal{
+    background: white;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+    height: 300%;
+    width: 40%;
+    right: 20%;
+    transform: rotate(-48deg);
+    color: #AAD8D3;
+}
+.main-content{
+    position: absolute;
+    width: 70%;
+    left: 7%;
+    top: 30%;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.name{
+    z-index: 1;
+    width: 100%;
+    text-align: left;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.first-name{
+    font-size: 6rem;
+}
+.last-name{
+    font-size: 6rem;
+    margin-left: 8%;
+}
+.typewriter{
+    color: black;
+    float:left;
+    align-items: left;
+    display: flex;
+    justify-content: left;
+    margin-left: 1%;
+}
+.icons {
+    float: left;
+    display: flex;
+    width:30%;
+    justify-content: space-between;
+    margin-left: 1%;
+    font-size: 2rem;
+}
+.icon {
+	cursor: pointer;
+    transition: 0.9s;
+}
+.icon:hover {
+    transition: 0.9s;
+	transform: rotate(-10deg);
+}
+.icons a {
+	background: none;
+	color: white !important;
+}
+.icons a:hover {
+	color: white !important;
+	cursor: pointer;
+}
+.icons a:link {
+	color: white;
+}
+.icons a:visited {
+	color: white;
+}
+.down{
+    position: absolute;
+    top:90%;
+    left:48%;
+}
+.down a {
+	background: none;
+	color: white !important;
+}
+.down a:hover {
+	color: white !important;
+	cursor: pointer;
+}
+.down a:link {
+	color: white;
+}
+.down a:visited {
+	color: white;
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 15%;
+    width: 80%;
+}
+.about-me{
+    /* font-size: 1.5rem; */
+    width: 70%;
+    margin-top: 1.25rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1rem;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #888888;
+    width: 13rem;
+    height: 17rem;
+    padding: 1rem;
+    margin-top:1.5%;
+    margin-left:2%;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* .card {
+	background: white;
+	border-radius: 20px;
+	color: #152238;
+	margin: 20px;
+	padding: 30px;
+	box-shadow:5px 5px 30px #808080;
+	transition: all .5s ease-out;
+} */
+.card:hover {
+	box-shadow:0px 0px 0px;
+    cursor: pointer;
+    color: black;
+}
+.exp-content{
+    width:90%;
+    height: 95%;
+    align-content: center;
+}
+.card-content{
+    margin-top: 0.5%;
+    width:100%;
+    height: 60%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    margin-bottom: 7%;
+}
+
+/* .center-img {
+	text-align: center;
+	height: 150px;
+    line-height:120px;
+    width: 100px;
+    align-content: center;
+} */
+img {
+	object-fit: cover;
+	vertical-align: middle;
+    display: inline-block;
+    height: 150px;
+    line-height:120px;
+}
+.wic{
+    width: 9em;
+    height: 110px
+}
+
+.modal-info{
+    position:fixed;
+    display: none;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.55);
+  }
+  
+  .modal-content-info{
+    background-color: #fefefe;
+    color:#696969;
+    padding: 3%;
+    /* width: 50%;
+    height: 70%; */
+    margin-top: 14%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 0 5px 8px 0;
+    overflow: auto;
+  }
+
+  #close-btn{
+    float:right;
+    height: 2em;
+    width: 2em;
+  }
+  .modal-role {
+	margin-bottom: 0px;
+}
+.modal-datess {
+	font-style: italic;
+}
+section#skills{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.skills-content{
+    margin-top: 10%;
+    width: 80%;
+    color: #696969;
+}
+
+section#contact{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contact-content{
+    margin-top: 6%;
+    width: 80%;
+    color: #696969;
+}
+#icons-contact-section{
+    width: 100%;
+    margin-top: 10%;
+    font-size: 6rem;
+    
+}
+
+/* --------------- MEDIA QUERIES -------------------- */
+@media screen and (max-width:616px) {
+	h1 {
+		font-size: 3.5rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+	}
+	h3 {
+		font-size: 1.5rem;
+	}
+	
+	.icons {
+        font-size: 0.5em;
+        display: none;
+    }
+    .main-content{
+        width: 90%;
+    }
+    .navbar{
+        width: 80%;
+        margin-left: -40%;
+    }
+    .navbar ul{
+        font-size: 0.75rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    #icons-contact-section{
+        display: flex;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:616px) and (max-width:724px) {
+	h1 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	h3 {
+		font-size: 1.75rem;
+	}
+	.icons {
+        font-size: 1em;
+        width:20%;
+    }
+    .main-content{
+        width: 90%;
+    }
+	.navbar{
+        width:70%;
+        margin-left: -35%;
+    }
+    p{
+        font-size:1rem;
+    }
+    #icons-contact-section{
+        font-size: 3.5rem;
+    }
+
+}
+
+@media screen and (min-width:724px) and (max-width:814px) {
+	h1 {
+		font-size: 3.5rem;
+	}
+	h2 {
+		font-size: 3.5rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	.icons {
+		font-size: 1.5em;
+	}
+	p{
+        font-size:1rem;
+    }
+    #icons-contact-section{
+        font-size: 4rem;
+    }
+}
+
+
+
+@media screen and (min-width:814px) and (max-width:1028px) {
+	h1 {
+		font-size: 4rem;
+	}
+	h2 {
+		font-size: 3.5rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	.icons {
+		font-size: 2em;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    #icons-contact-section{
+        font-size: 5rem;
+    }
+}
+
+@media screen and (min-width:1028px) and (max-width:1230px) {
+	h1 {
+		font-size: 5rem;
+	}
+	h2 {
+		font-size: 4rem;
+	}
+	h3 {
+		font-size: 2rem;
+    }
+}
+
+/*
+@media screen and (max-width:320px) {}
+@media screen and (min-width:321px) and (max-width:639px) {}
+@media screen and (min-width:640px) and (max-width:959px) {}
+@media screen and (min-width:960px) and (max-width:1279px) {}
+@media screen and (min-width:1280px) and (max-width:1599px) {}
+@media screen and (min-width:1600px) {}
+@media screen and (min-width:1920px) {}
+*/
+
