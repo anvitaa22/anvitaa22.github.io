@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="https://kit.fontawesome.com/94394b68a0.js" crossorigin="anonymous"></script>
+        <style>
+            body {
+                font-family: 'Poppins';
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar">
+                <ul>
+                    <li class="home"><a href="#home">Home</a></li>
+                    <li class="about"><a href="#about">About</a></li>
+                    <li class="experience"><a href="#experience">Experience</a></li>
+                    <li class="skills"><a href="#skills">Skills</a></li>
+                    <li class="contact"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <section id="home">
+                <div class="diagonal">
+                </div>
+                <div class="main-content">
+                    <div class="name">
+                        <h1>anvitaa sekhsaria</h1>
+                        <!-- <h1 class="last-name">sekhsaria</h1> -->
+                    </div>
+                    <h3 class="typewriter">i'm a &nbsp;<span class="animate"></span></h3>
+                    <div class="icons">
+                        <a href="" target="_blank">
+                            <i class="fa fa-linkedin icon spacer" aria-hidden="true"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa fa-github icon spacer" aria-hidden="true"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa fa-instagram icon spacer" aria-hidden="true"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa fa-envelope-o icon spacer" aria-hidden="true"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa fa-file-text icon spacer" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="down">
+                    <a href="#about">
+                        <i class="fa fa-angle-down fa-3x" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+                
+            </section>
+            <section id="about">
+                
+                <div class="about-content">
+                    <div class="title">
+                        <h2>about</h2>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="about-me">
+                        <p>
+                            Hello! My name is Anvitaa Sekhsaria and I am an undergraduate student at Univeristy of California, San Diego studying 
+                            Computer Science with a minor in Economics. My software interests include cloud computing, distributed systems, web developement and artifical intelligence.
+                            However, I am open to gaining experience in any software discipline and would love to gain more exposure. I am currently looking for internship and research opportunities 
+                            for the 2021-2022 school year and summer.
+                        </p>
+                        
+                    </div>
+                </div>
+              
+            </section>
+            <section id="experience">
+                <div style="margin-top: 6%; margin-left: 5%;" class="exp-content">
+                    <div class="title exp">
+                        <h2>experience</h2>
+                        <div style="background-color: white;" class="underline"></div>
+                    </div>
+                    <div class="card-content">
+                        <div id="0" class="card" data-toggle="modal" data-target="#expModal" onclick="openInfoModal()">
+                            <div class="center-img">
+                                <img class="rwr" src="images/rwr.png">
+                            </div>
+                            <br/>
+                            <h4 class="card-title">RWR</h4>
+                            <h5 class="card-subtitle">Full Stack Developer Intern</h5>
+                        </div>
+                        <div id ="1" class="card" data-toggle="modal" data-target="#expModal" onclick="openInfoModal()">
+                            <div class="center-img">
+                                <img class="coffeedata" src="images/coffee-data.png">
+                            </div>
+                            <br/>
+                            <h4 class="card-title">CoffeeData Inc.</h4>
+                            <h5 class="card-subtitle">Big Data Analytics Intern</h5>
+                        </div>
+                        <div id ="2" class="card" data-toggle="modal" data-target="#expModal" onclick="openInfoModal()">
+                            <div class="center-img">
+                                <img class="cse" src="images/cse.jpg">
+                            </div>
+                            <br>
+                            <h4 class="card-title">UCSD CSE</h4>
+                            <h5 class="card-subtitle">Undergraduate Tutor</h5>
+                        </div>
+                        <div id="3" class="card" data-toggle="modal" data-target="#expModal" onclick="openInfoModal()">
+                            <div class="center-img">
+                                <img class="pomo" src="images/pomofocus.png">
+                            </div>
+                            <br>
+                            <h4 class="card-title">PomoFocus</h4>
+                            <h5 class="card-subtitle">Full Stack Developer & Designer</h5>
+                        </div>
+                        <div id="4" class="card" data-toggle="modal" data-target="#expModal" onclick="openInfoModal()">
+                            <div class="center-img">
+                                <img class="easybites" src="images/easy-bites.png">
+                            </div>
+                            <br>
+                            <h4 class="card-title">EasyBites</h4>
+                            <h5 class="card-subtitle">Full Stack Developer</h5>
+                        </div>
+                        <div id="5" class="card" data-toggle="modal" data-target="#expModal" onclick="openInfoModal()">
+                            <div class="center-img">
+                                <img class="wic" src="images/wic.png">
+                            </div>
+                            <br>
+                            <h4 class="card-title">Women in Computing</h4>
+                            <h5 class="card-subtitle">Project Team Lead</h5>
+                        </div>
+                        <div id="6" class="card" data-toggle="modal" data-target="#expModal" onclick="openInfoModal()">
+                            <div class="center-img">
+                                <img class="opensource" src="images/opensource.png">
+                            </div>
+                            <br>
+                            <h4 class="card-title">OpenSource @ UCSD</h4>
+                            <h5 class="card-subtitle">Frontend Web Developer</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MODAL STUFF -->
+            <div id="info-modal" class="modal-info">
+                <div class="modal-content-info">
+                  <div class="modal-text">
+                    <input id="close-btn" type="image" src="./images/close.png" onclick="closeInfoModal()" />
+                    <h4 class="bold modal-title" style="color:black;">Title</h4>
+					<br/>
+                    <h5 class="modal-role" style="color:black;">Role</h5>
+                    <h5 class="modal-dates">Dates</h5>
+                    <br/>
+                    <h5 class="modal-description">Description</h5>
+                    <br/>
+                    <h6 class="modal-tools" style="color:black;"></h6>
+                  </div>
+                </div>
+              </div>
+            
+            
+            <section id="skills">
+                    <div class="skills-content">
+                        <div class="title">
+                            <h2>skills</h2>
+                            <div class="underline"></div>
+                        </div>
+                        <br>
+                        <p><b style="color:black; font-weight: bold;">Languages: </b>Java, Python, C/C++, JavaScript, SQL, Kotlin, Scala, HTML/CSS</p>
+                        <br>
+                        <p><b style="color:black; font-weight: bold;">Tools: </b>ReactJS, Django, Firebase, Android Studio, React Native, Apache Spark</p>
+                        <br>
+                        <p><b style="color:black; font-weight: bold;">Course work: </b>Data Structures, Algorithms, Software Engineering, Machine Learning, Web Mining, Database Applications</p>
+                    </div>
+            </section>
+            <section id="contact">
+                <div class="contact-content">
+                    <div class="title">
+                        <h2>let's connect</h2>
+                        <div style="background-color: white;" class="underline"></div>
+                        
+                    </div>
+                    <div class="icons" id="icons-contact-section">
+                        <a href="" target="_blank">
+                            <i class="fa fa-linkedin icon spacer" aria-hidden="true"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa fa-github icon spacer" aria-hidden="true"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa fa-instagram icon spacer" aria-hidden="true"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa fa-envelope-o icon spacer" aria-hidden="true"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa fa-file-text icon spacer" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
+        <script>
+            var typed = new Typed('.animate', {
+              strings: [
+                  "developer.",
+                  "creator.",
+                  "engineer.",
+                  "designer."
+              ],
+              typeSpeed: 100,
+              backSpeed: 100,
+              showCursor:false,
+              loop: true
+            });
+          </script>
+          <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
+    </body>
+</html>
